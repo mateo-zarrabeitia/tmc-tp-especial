@@ -3,7 +3,7 @@
 clear
 clc
 
-dni = 38270068;
+dni = 39848917;
 epsilon =0.1;
 [probabilidad_estimada, probabilidades_parciales] = calcular_probabilidad_tiro(epsilon,dni);
  mostrar_y_graficar(probabilidades_parciales,probabilidad_estimada,epsilon);
